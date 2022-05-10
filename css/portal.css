@@ -3,26 +3,31 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 html {
-    background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
+    background-color:black;
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
 }
 
 ::selection {
-    color: #000; 
+    color:seagreen; 
     background: #ff0;
 }
 
 h1 {
     font-weight: normal;
-    margin: auto;
-    background: #fff;
+    margin: right;
+    background:lightgray;
     line-height: 2.5em;
+}
+/*. specifies class*/
+h1.logo{
+    font-family: 'Cookie', cursive;
 }
 
 main.wrapper {
-    background-color: white;
+    background-color:lightgray;
     overflow: auto;
 }
 
@@ -37,13 +42,13 @@ h2,h3 {
 }
 
 a {
-    color:darkcyan;
+    color:black;
     text-decoration: none;
 }
 
 a:hover {
     color: whitesmoke;
-    background-color: darkcyan;
+    background-color:lightgray;
     text-decoration: none;
 }
 
@@ -58,7 +63,7 @@ footer {
 /* DESKTOP */
 @media all and (min-width:1200px) {
     main.wrapper {
-        width: 80%;
+        width: 50%;
         margin: auto;
     }
     
@@ -68,7 +73,7 @@ footer {
     }
     
     picture.profile img {
-        width: 50%;
+        width: 30%;
         float: left;
         margin-right: 2em;
     }
@@ -88,9 +93,9 @@ footer {
     }
     
     picture.profile img {
-        width: 50%;
+        width: 30%;
         float: right;
-        margin-left: 1em;
+        margin-left: 2em;
     }
 
 }
@@ -107,7 +112,7 @@ footer {
     }
     
     picture.profile img {
-        width: 100%;
+        width: 20%;
     }
     
 }
