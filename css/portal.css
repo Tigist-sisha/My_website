@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 html {
-    background-color:black;
+    background-color:darkgray;
     /* font-family: 'Quicksand', sans-serif; */
     font-family: 'Montserrat', sans-serif;
     font-size: 0.95em;
@@ -63,13 +63,14 @@ footer {
 /* DESKTOP */
 @media all and (min-width:1200px) {
     main.wrapper {
-        width: 50%;
+        width: 60%;
         margin: auto;
     }
     
     h1 {
-        width: 79%;
-        padding-left: 1%;
+        width: 55%;
+        padding-left: 40%;
+        padding-right: 25;
     }
     
     picture.profile img {
